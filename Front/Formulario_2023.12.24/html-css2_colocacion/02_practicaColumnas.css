@@ -1,0 +1,36 @@
+
+body{
+    background-color: #888;
+}
+
+.boxorosto {
+    width: 80%;
+    background-color: wheat;
+    border: 3px solid #666;
+    margin: 40px auto;  
+}
+
+
+.container {
+    width: 25%;
+    background-color: wheat;
+    border: 3px solid #666;
+    margin: 40px auto;   
+}
+
+.columna {
+    min-height: 100px;
+    background-color: white;
+    max-width: 250px;
+    margin: 10px;
+}
+
+
+
+.boxy {
+    width: 25%;
+    background-color: wheat;
+    border: 3px solid #666;
+    margin: 40px auto;  
+}
+

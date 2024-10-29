@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_main_container {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    color: grey;
+}
+
+.logo {
+    width: 800px;
+    display: flex;
+    direction: row;
+    align-items: center;
+    font-size: 20px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.header_icons {
+    width: 140px;
+    padding: 0 25px;
+}
+
+/* <--------------------------------------CONTENT------------------------->*/
+
+.main_container {
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.tittle {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.second_tittle {
+    font-weight: 100;
+}
+
+.button {
+    font-size: 16px;
+    color: #666666;
+    background-color: white;
+    margin: 0px 8px 8px 0px;
+    padding: 9px 16px;
+    border: solid 0.5px grey;
+    font-weight: bold;
+}
+
+.plus {
+    margin-right: 10px;
+}
+
+.button:hover {
+    color: black;
+    border: solid 0.5px black;
+}
+
+.show_more {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.angle {
+    margin-right: 10px;
+}
+
+.vehicle {
+    font-size: 16px;
+    color: #666666;
+}
+
+.bold {
+    font-weight: bold;
+    color: black;
+}
+
+.second_child {
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: bold;
+    width: 100%;
+/*     border-bottom: 0.5px solid #e6e6e6; */
+}
+
+.selector {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    padding-left: 0px;
+
+}
+
+.go_to {
+    text-decoration: none;
+    color: black;
+    color: #666666;
+}
+
+.go_to:hover {
+    text-decoration: underline 3px black;
+    text-underline-offset: 15px;
+    color: black;
+}
+
+
+/*------------------- CAR PICTURES --------------------- */
+
+.separator1 {
+    font-size: 50px;
+    color: #666666;
+    height: auto;
+    width: 100%;
+}
+
+.separator {
+    font-size: 50px;
+    color: #666666;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.A1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.car_model {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+    margin-left: 85px;
+}
+
+.car_price {
+    font-weight: bold;
+    color: #666666;
+    margin-top: 5px;
+    margin-left: 85px;
+}
+
+.know_more {
+    padding: 15px 80px;
+    font-size: 16px;
+    margin-left: 85px;
+    border: solid 1px black;
+    background-color: white;
+}
+
+.A3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.A4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.A5  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.A6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.A7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.A8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.e-tronGT {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ .Q2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Q3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Q4e-tron {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Q5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Q7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Q8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Q8e-tron {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.R8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.TT {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

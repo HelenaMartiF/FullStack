@@ -1,0 +1,35 @@
+
+
+.container {
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    margin: 30px
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.green {
+    background-color: green;
+}

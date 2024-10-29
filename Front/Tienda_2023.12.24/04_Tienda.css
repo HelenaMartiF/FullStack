@@ -1,0 +1,48 @@
+.header {
+    font-size: 35px;
+    text-align: center;
+}
+
+/* <----------------------- CONTENT ---------------------------->*/
+
+
+
+.first_child {
+    width: 1380px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    gap: 40px;
+}
+
+.second_child:hover {
+    border: solid 1px;
+
+}
+
+img {
+    width: 314px;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description {
+    font-size: 13px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.on_sales4 {
+    text-decoration-line: line-through;
+}
+
+.new_price4 {
+    color: red;
+}

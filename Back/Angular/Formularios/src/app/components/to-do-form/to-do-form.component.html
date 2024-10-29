@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let task of taskList">{{task}}</li> <!-- hijo muestra tareas -->
+</ul>
+
+<div> <!-- hijo recoge tareas -->
+    <h2>Ingresar tarea</h2>
+    <input (keyup.enter)="handleInputTask($event)"/> <!-- al pulsar la letra enter se activa la función -->
+</div>

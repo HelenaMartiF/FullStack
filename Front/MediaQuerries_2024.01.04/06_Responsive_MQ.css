@@ -1,0 +1,434 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media all and (max-width: 845px) {
+    
+    .cocaine {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cocaine_img {
+        width: 50%;
+    }
+
+  /*   .cocaine_minWidth{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 350px;
+        padding-left: 20px;
+    } */
+
+  /*   .cocaine_comments{
+        display: flex;
+        font-weight: bold;
+        gap: 20px;
+        padding-left: 15px;
+    } */
+
+    .cocaine_content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 350px;
+        padding-left: 20px;
+    }
+
+    .cocaine_comments{
+        display: flex;
+        font-weight: bold;
+        gap: 20px;
+        padding-right: 20px;
+    }
+
+    .separator1 {
+        background-color: rgb(185, 185, 185);
+        height: 1px;
+        margin-bottom: 30px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .timbre {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .timbre_img {
+        width: 200px;
+    }
+
+    .rata {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .rata_img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .alcalde {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 25px;  
+    }
+
+    .alcalde_img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .alcalde_content {
+        display: flex;
+        flex-direction: row;
+        width: 33%;
+    }
+
+    .paracaidas {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .paracaidas_img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .paracaidas_content {
+        display: flex;
+        flex-direction: row;
+        width: 33%;
+    }
+
+    .hrtz_news {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .veganas {
+        width: 45%;
+    }
+
+    .veganas_img{
+        width: 100%;
+        height: 60%;
+    }
+
+    .area51 {
+        width: 45%;
+    }
+
+    .area51_img {
+        width: 100%;
+        height: 60%;
+    }
+
+    .sicario {
+        width: 45%;
+        padding-right: 1px;
+    }
+
+    .sicario_img {
+        width: 100%;
+        height: 60%;
+    }
+
+    .separator2 {
+        height: 1px;
+        background-color: rgb(185, 185, 185);
+    }
+
+    .hrtz_news2 {
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+
+    .cable {
+        border-left-color: rgb(185, 185, 185);
+        border-left-style: solid;
+        border-left-width: 1px;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+
+    .does_need_line::after {
+        content: "";
+        display: block;
+        width: 700px;
+        height: 2px;
+        background: black;
+        position: absolute;
+        right: 10px;
+        margin-top: -10px;
+    }
+
+    .latas_img {
+        width: 100%;
+        height: 60%;
+    }
+
+    .ruso_img {
+        width: 100%;
+        height: 60%;
+    }
+
+    .bebe_img {
+        width: 100%;
+        height: 60%;
+    }
+} 
+
+
+@media all and (min-width: 846px) {
+
+    .cocaine {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 1400px;
+        margin: 85px 85px 20px;
+    }
+
+    .cocaine_content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .cocaine_comments {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    /* .cocaine_comments {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+        margin-left: 20px;
+    }
+
+    .cocaine_minWidth {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+        margin-left: 20px;
+    }
+
+    .cocaine_comments {
+        padding-left: 20px;
+    } */
+ 
+    .vertical {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 1400px;
+        margin: 85px 85px 20px;
+    }
+
+    .timbre {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        margin-right: 65px;
+    }
+
+    .timbre_img {
+        width: 330px;
+        height: 195px;
+    }
+
+    .rata {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        margin-right: 65px;
+    }
+
+    .rata_img {
+        width: 330px;
+        height: 195px;
+    }
+
+    .alcalde {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        margin-right: 65px;
+    }
+
+    .alcalde_img {
+        width: 330px;
+        height: 195px;
+    }
+
+    .paracaidas {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        margin-right: 65px;
+        margin-top: 20px;
+    }
+
+    .paracaidas_img {
+        width: 330px;
+        height: 195px;
+    }
+
+    /* ------------------------------------------------------------ */
+
+    .horizontal {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 1400px;
+        margin: 85px 85px 20px;
+    }
+
+    .veganas {
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+        margin-right: 30px;
+    }
+
+    .veganas_img{
+        width: 235px;
+        height: 145px;
+    }
+
+    .area51 {
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+        margin-right: 30px;
+    }
+
+    .area51_img {
+        width: 235px;
+        height: 145px;
+    }
+
+    .sicario {
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+        margin-right: 30px;
+    }
+
+    .sicario_img {
+        width: 235px;
+        height: 145px;
+    }
+
+    .dinero {
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+        margin-right: 30px;
+    }
+
+    .dinero_img {
+        width: 235px;
+        height: 145px;
+    }
+
+    .cable {
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+        margin-right: 30px;
+    }
+
+    .cable_img {
+        width: 235px;
+        height: 145px;
+    }
+
+    .hrtz_news{
+        display: flex;
+    }
+
+    .hrtz_news2 {
+        display: flex;
+    }
+
+    .separator3 {
+        margin: 85px 85px 20px;
+    }
+
+    .does_need_line::after {
+        content: "";
+        display: block;
+        width: 1178px;
+        height: 2px;
+        background: black;
+        position: absolute;
+        right: 501px;
+        margin-top: -12px;
+    }
+
+    .latas {
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+        margin-right: 30px;
+    }
+
+    .latas_img {
+        width: 235px;
+        height: 145px;
+    }
+
+    .ruso {
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+        margin-right: 30px;
+    }
+
+    .ruso_img {
+        width: 235px;
+        height: 145px;
+    }
+
+    .bebe {
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+        margin-right: 30px;
+    }
+
+    .bebe_img {
+        width: 235px;
+        height: 145px;
+    }
+    
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="pokedex.js" defer></script>
+
+    <title>Shiny Pokedex</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <h4 class="tituloBuscador">Busca tu amigui shiny...</h4>
+
+    <div class="buscador">
+        
+        <label class="nombreAmigui" for="Nombre">Nombre de tu amigui:</label><br>
+        <input class="inputName" type="text" id="Nombre" name="Nombre"><br>
+
+        <label for="Tipo">Tipo de tu amigui:</label><br>
+        <select class="seleccionar" name="Tipo" id="Tipo">
+            <option value="none"></option>
+            <option value="water">Agua</option>
+            <option value="bug">Bicho</option>
+            <option value="dragon">Dragon</option>
+            <option value="electric">Eléctrico</option>
+            <option value="ghost">Fantasma</option>
+            <option value="fire">Fuego</option>
+            <option value="fairy">Hada</option>
+            <option value="ice">Hilo</option>
+            <option value="fighting">Lucha</option>
+            <option value="normal">Normal</option>
+            <option value="grass">Planta</option>
+            <option value="psychic">Psíquico</option>
+            <option value="rock">Roca</option>
+            <option value="ground">Tierra</option>
+            <option value="poison">Veneno</option>
+            <option value="flying">Volador</option>
+            <option value="steel">Acero</option>
+        </select>
+        
+        <!-- <label class="idNumber" for="number">Pon tu número favorito:</label><br>
+        <input class="idInput" type="number" id="number" name="number"><br> -->
+
+       <!--  <label for="rangeFilter" class="barrita">HP</label>
+        <input type="range" id="rangeFilter" min="0" max="100" step="1" value="0"> -->
+    </div>
+
+    <div class="container">
+        <h1>Shiny Pokedex</h1>
+        <h3>Dónde los pokemons básicos no tienen cabida, aquí somos todos especiales.</h3>
+        <ol id="pokedex">
+            
+        </ol>
+    </div>    
+
+</body>
+</html>
+
+

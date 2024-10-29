@@ -1,0 +1,409 @@
+body {
+    font-family: 'Barlow';
+    font-size: 18px;
+    margin: 0%;
+}
+
+.main_header{
+    width: 100%;
+    padding: 48px 0px;
+    margin-top: -8px;
+    background-color: rgb(241, 237, 237);
+}
+
+.first_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 14px;
+    padding: 0px 15px;
+}
+
+.left {
+    width: 20vw;
+}
+
+.phoneicon {
+    margin-left: 34px;
+}
+
+.phone_number{
+    margin-left: 61px;
+    margin-top: -21px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.center {
+    width: 80vw;   
+    display: flex; 
+    justify-content: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.right {
+    width: 20vw;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.user {
+    margin-right: 17px;
+}
+
+.loupe {
+    margin-right: 30px;
+}
+
+/* <------------------ HEADER MENU --------------->*/
+
+.second_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 36px;
+    height: 200px;
+}
+
+.nav_menu {
+    position: -webkit-sticky;
+    position: sticky; 
+    top: 0px; 
+    height: 120px;
+    width: 100%;
+    background-color: rgb(241, 237, 237);
+}
+ 
+
+.nav_menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.t_menu:hover {
+    text-decoration: underline salmon solid 2px;
+    text-underline-offset: 5px;
+    color: salmon;
+}
+/*<----------------------------- FIRST PICTURE --------------------->*/
+
+.slides {
+    background-color: rgb(241, 237, 237); 
+    height: 800px;
+}
+
+.first_slide {
+    height: 800px;
+}
+
+.first_picture {
+    padding-left: 900px;
+    margin-top: -65px;
+    z-index: 1;
+}
+
+.text_right {
+    margin-top: -576px;
+    margin-left: 104px;
+    margin-bottom: 345px;
+    margin-right: 1100px;
+}
+
+.authentic {
+    font-size: 52px;
+}
+
+.button_text {
+    padding: 21px 36px;
+    font-size: 24px;
+    height: 72px;
+    width: 164px;
+    margin-top: 6px;
+    border: 2px solid red;
+}
+
+.button_text:hover{
+    background-color: salmon;
+    border: none;
+    transition-duration: 0.7s;
+}
+
+.delivery {
+    margin-left: 30px;
+}
+
+/* <---------------  CONTENT FIRST ROW ----------------->*/
+
+.content {
+    padding: 144px 62px 0px;
+    height: 1100px;
+    background-color: whitesmoke;
+}
+
+.first_row {
+    height: 500px;
+}
+
+.conocenos {
+    transform: rotate(270deg);
+    position: relative;
+    top: -730px;
+    right: 884px;
+    font-size: 16px;
+    color: #DE9E95;
+    font-weight: bold;
+}
+
+.left_text {
+    padding-left: 120px;
+}
+
+.salmon_title {
+    font-size: 56px;
+    color: #DE9E95;
+}
+
+.salmon_text {
+    font-size: 18px;
+    color: #DE9E95;
+    margin-bottom: 32px;
+    line-height: 2;
+    
+}
+
+.gamba {
+    font-size: 24px;
+    color: #A45450;
+    font-weight: bold;
+}
+
+.gamba:hover {
+    text-decoration: underline;
+    color: #A45450;
+}
+
+.shrimp {
+    color: #A45450;
+}
+
+.right_picture {
+    margin-left: 1052px;
+    position: relative;
+    top: -339px;
+}
+
+/* <---------------  CONTENT SECOND ROW ----------------->*/
+
+.second_row {
+    height: 500px;
+}
+
+.left_picture {
+    position: relative;
+    top: 16px;
+}
+
+.right_text {
+    position: relative;
+    top: -420px;
+    left: 1057px;
+    width: 275px;
+}
+
+.grey {
+    font-size: 16px;
+    color: #7A7879;
+}
+
+.oscar {
+    position: relative;
+    left: 311px;
+    top: -156px;
+}
+
+.chinese_food {
+    position: relative;
+    top: -133px;
+}
+
+.mision {
+    transform: rotate(90deg);
+    position: relative;
+    top: -81px;
+    right: -866px;
+    font-size: 16px;
+    color: #DE9E95;
+    font-weight: bold;
+}
+
+/* <------------------ SALMON ROW + BUTTONS --------------->*/
+
+.salmon_row {
+    background-color: #DE9E95;
+    height: 260px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.salmon_row_content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100px;
+}
+
+.salmon_row_text {
+    color: white;
+    font-size: 56px;
+    margin-left: 230px;
+}
+
+.salmon_row_button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 260px;
+}
+
+.button_salmonRow{
+    padding: 21px 36px;
+    font-size: 24px;
+    height: 72px;
+    width: 215px;
+    margin-top: 6px;
+    border: 2px solid #A45450;
+    background-color: #DE9E95;
+    color: white;
+}
+
+.button_salmonRow:hover {
+    background-color: #A45450;
+    border: none;
+    transition-duration: 0.7s;
+}
+
+.button_right {
+    margin-left: 15px;
+}
+
+
+
+
+
+/* <------------------ FOOTER + CONTACT INFO --------------->*/
+
+.last_section {
+    display: flex;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
+    margin-top: 70px;
+}
+
+i {
+    font-size: 35px;
+    color: #DE9E95;
+}
+
+.salmon_bold {
+    color: #DE9E95;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.small_grey {
+    color: #7A7879;
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.map {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 345px;
+}
+
+/* <------------------ FOOTER --------------->*/
+
+.footer {
+    padding: 132px 0px 132px 0px;
+}
+
+.logo_footer {
+    margin-left: 850px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 80px;
+}
+
+.f_menu{
+    color:#A45450;
+}
+
+.f_menu:hover {
+    text-decoration: underline #A45450 solid 1px;
+    text-underline-offset: 5px;
+    color: #A45450;
+}
+
+.bar {
+    font-weight: none;
+}
+
+.grey_footer{
+    margin-top: 21px;
+    margin-left: 759px;
+    color: #7A7879;
+    font-size: 16px;
+}
+
+.logo_left {
+    margin-left: 670px;
+    margin-top: 20px;
+}
+
+
+
+/* .nav_menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-weight: bold;
+} */
+
+/* a {
+    text-decoration: none;
+    color: black;
+} */
+
+.t_menu:hover {
+    text-decoration: underline salmon solid 2px;
+    text-underline-offset: 5px;
+    color: salmon;
+}
